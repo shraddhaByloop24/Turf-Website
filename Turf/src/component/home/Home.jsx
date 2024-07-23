@@ -1,10 +1,14 @@
-import React from 'react'
+
+import Navbar from '../../modules/Navbar'
+import Header from '../../modules/Header'
 
 
 const Home = () => {
   return (
-    <h1>Hello This is Home</h1>
-    
+    <>
+    <Header/>
+    <Navbar/>
+    </>
   )
 }
 
