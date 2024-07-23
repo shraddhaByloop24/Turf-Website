@@ -33,8 +33,12 @@
 .header-right {
     display: flex;
     justify-content: flex-end;
-
-   
+    /* padding-top: 4px; */
+    font-size: 20px;
+}
+.header-right i{
+    margin-left: 8px;
+    color: #fff;
 }
 
 .header-phone {
@@ -53,10 +57,23 @@
     align-items: center;
 }
 
-.h-icon{
-    font-size: 20px;
-}
+/* .h-icon{
+    font-size: 12px;
+} */
 
+/* Media Query for Mobile View=============================
+=========================================================== */
+@media only screen and (max-width: 990px) {
+    .header-right {
+      justify-content: flex-start; 
+      width: 100%;
+    }
+  
+    .header-right i {
+      margin-left: 8px;
+      margin-right: 3px; 
+    }
+  }
 
 
 
