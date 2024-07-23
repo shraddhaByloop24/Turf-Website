@@ -1,12 +1,14 @@
 import React from 'react'
+import './Mainstyle.css'
+
 
 const Navbar = () => {
   return (
     <>
- <nav className="navbar navbar-expand-lg navbar-light bg-light">
-  <div className="container-fluid">
+ <nav className="navbar navbar-expand-lg navbar-dark bg-dark stroke">
+  <div className="container">
     <a className="navbar-brand" href="#">
-      Navbar
+      <img src="./image/Logo.pn"  className="img-fluid " alt="Way to Turf" />
     </a>
     <button
       className="navbar-toggler"
@@ -19,28 +21,38 @@ const Navbar = () => {
     >
       <span className="navbar-toggler-icon" />
     </button>
-    <div className="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul className="navbar-nav me-auto mb-2 mb-lg-0">
+    <div className="collapse navbar-collapse d-lg-flex justify-content-lg-center  " id="navbarSupportedContent">
+      <ul className="navbar-nav m-auto  mb-2 mb-lg-0">
         <li className="nav-item">
-          <a className="nav-link active" aria-current="page" href="#">
+          <a className="nav-link active px-2" aria-current="page" href="#">
             Home
           </a>
         </li>
         <li className="nav-item">
-          <a className="nav-link" href="#">
-            Link
+          <a className="nav-link active px-2" href="#">
+            About 
           </a>
         </li>
-        <li className="nav-item dropdown">
+        <li className="nav-item">
+          <a className="nav-link active px-2" href="#">
+            Services 
+          </a>
+        </li>
+        <li className="nav-item">
+          <a className="nav-link active px-2" href="#">
+            Sports 
+          </a>
+        </li>
+        {/* <li className="nav-item dropdown">
           <a
-            className="nav-link dropdown-toggle"
+            className="nav-link active dropdown-toggle text-black"
             href="#"
             id="navbarDropdown"
             role="button"
             data-bs-toggle="dropdown"
             aria-expanded="false"
           >
-            Dropdown
+            Spot
           </a>
           <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
             <li>
@@ -62,29 +74,23 @@ const Navbar = () => {
               </a>
             </li>
           </ul>
-        </li>
+        </li> */}
         <li className="nav-item">
           <a
-            className="nav-link disabled"
+            className="nav-link active px-2"
             href="#"
             tabIndex={-1}
             aria-disabled="true"
           >
-            Disabled
+            Contact
           </a>
         </li>
       </ul>
-      <form className="d-flex">
-        <input
-          className="form-control me-2"
-          type="search"
-          placeholder="Search"
-          aria-label="Search"
-        />
-        <button className="btn btn-outline-success" type="submit">
-          Search
+
+        <button className="btn  text-white login-btn" type="submit">
+          Login
         </button>
-      </form>
+
     </div>
   </div>
 </nav>
