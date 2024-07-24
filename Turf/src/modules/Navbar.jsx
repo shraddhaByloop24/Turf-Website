@@ -14,7 +14,7 @@ const Navbar = () => {
       <nav className="navbar navbar-expand-lg navbar-dark bg-dark stroke">
         <div className="container">
           <a className="navbar-brand" href="#">
-            <img src="../icons/Group1.png" className="img-fluid w-50 " alt="Way to Turf" />
+            <img src="./icons/Frame20.png" className="img-fluid" alt="Way to Turf" />
             {/* <h2>Way to Turf</h2> */}
           </a>
           <button
@@ -29,7 +29,7 @@ const Navbar = () => {
             <span className="navbar-toggler-icon" />
           </button>
           <div className="collapse navbar-collapse d-lg-flex justify-content-lg-center  " id="navbarSupportedContent">
-            <ul className="navbar-nav m-auto  mb-2 mb-lg-0">
+            <ul className="navbar-nav m-auto mb-2 mb-lg-0">
               <li className="nav-item">
                 <a className="nav-link active px-2" aria-current="page" href="#">
                   Home

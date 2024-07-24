@@ -8,7 +8,7 @@ const Hero = () => {
             <div className="hero-1 " >
                 <div className="hero-2 container hero">
                     <div className="row pt-5">
-                        <div className="col-lg-6 hero-3 ">
+                        <div className="col-lg-6 hero-3 px-lg-0 px-4 ">
                             <div className="hero-4">
                                 <h1>Let's Play <br /> with the World</h1>
                                 <p>
@@ -67,9 +67,9 @@ const Hero = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className="col-lg-6 mt-lg-0 mt-5">
+                        <div className="col-lg-6 mt-lg-0 mt-5 ">
                             <div className=''>
-                                <h1 className='text-uppercase section2-about-heading'>We Welcome you <br />to OUR way to turf</h1>
+                                <h1 className='text-uppercase section2-about-heading '>We Welcome you <br />to OUR way to turf</h1>
                                 <p className='pt-2'>A paragraph is defined as “a group of sentences or a single sentence that forms a unit” Lunsford and Connors 116.
                                     A paragraph is defined as “a group of sentences or a single sentence that forms a unit” (Lunsford and Connors 116).</p>
 
