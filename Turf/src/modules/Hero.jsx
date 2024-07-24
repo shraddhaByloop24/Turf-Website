@@ -55,21 +55,21 @@ const Hero = () => {
                 </div>
             </div>
 
-            {/* Section 2 */}
+            {/* ===================Section 2 ==================*/}
             <section className="container-fluid section2-main-container">
                 <div className="container hero-about">
                     <div className="row d-flex justify-content-center align-items-center">
                         <div className="col-lg-6">
-                            <div className='p-lg-5 abb'>
+                            <div className='p-lg-5 mt-lg-0 mt-5 abb'>
                                 <img src="./image/Rectangle.png" className='img-fluid section2-about-img' alt="" />
-                                <div className='hero-small-box'>
-                                    <h1 className='small-box-heading'>Let's Play <br />play the Game</h1>
+                                <div className='hero-small-box mx-lg-0 mx-4 mt-4  '>
+                                    <h1 className='small-box-heading'></h1>
                                 </div>
                             </div>
                         </div>
-                        <div className="col-lg-6">
+                        <div className="col-lg-6 mt-lg-0 mt-5">
                             <div className=''>
-                                <h1 className='text-uppercase'>We Welcome you <br />to OUR way to turf</h1>
+                                <h1 className='text-uppercase section2-about-heading'>We Welcome you <br />to OUR way to turf</h1>
                                 <p className='pt-2'>A paragraph is defined as “a group of sentences or a single sentence that forms a unit” Lunsford and Connors 116.
                                     A paragraph is defined as “a group of sentences or a single sentence that forms a unit” (Lunsford and Connors 116).</p>
 
@@ -86,48 +86,103 @@ const Hero = () => {
 
 
 
-            {/* Section 3 */}
+            {/*================== Section 3============== */}
 
-             <section className='our-turf'>
-                <div className="container w-50 pt-5">
-                    <div className='text-center'>
-                        <h1 className='our-turf-header'>We Welcome you <br />
-                        to OUR way to tyrf </h1>
-                        <p>A paragraph is defined as “a group of sentences or a single sentence that forms a unit” (Lunsford and Connors 116). Length and appearance do not determine whether a section.</p>
+            <section className='our-turf'>
+                <div className="container text-center pt-5">
+                    <div className='text-center '>
+                        <h1 className='our-turf-header'>We Welcome to our Turf Services </h1>
+                        <p className='display-6'>A paragraph is defined as “a group of sentences or a single sentence that forms a unit” (Lunsford and Connors 116). <br />  Length and appearance do not determine whether a section.</p>
                     </div>
                 </div>
                 <div className="container">
                     <div className="row">
-                        <div className="col-lg-4">
-                            <div className='text-center p-5 '>
-                                <div className='text-center px-4 py-3 border' >
-                                    <img src="./icons/Group1.png"className='img-fluid' alt="" />
-                                    <h5 className='pt-4'>Search or Turf</h5>
-                                    <p>A paragraph is defined as “a group of sentences or a single sentence that forms a uni.</p>
+                        <div className="col-lg-4 ">
+                            <div className="text-center p-lg-5 mt-lg-0 mt-5">
+                                <div className="text-center px-4 py-2 section3-turf-border">
+                                    <img src="./icons/Group1.png" className="img-fluid" alt="" />
+                                    <h5 className="pt-4 section3-turf-heading">Searching</h5>
+                                    <p className="display-6">
+                                        A paragraph is defined as “a group of sentences or a single
+                                        sentence that forms a uni.
+                                    </p>
                                 </div>
                             </div>
                         </div>
                         <div className="col-lg-4">
-                        <div className='text-center p-5 '>
-                                <div className='text-center px-4 py-3 border' >
-                                    <img src="./icons/Group2.png"className='img-fluid' alt="" />
-                                    <h5 className='pt-4'>Search or Turf</h5>
-                                    <p>A paragraph is defined as “a group of sentences or a single sentence that forms a uni.</p>
+                            <div className="text-center p-lg-5 mt-lg-0 mt-2">
+                                <div className="text-center px-4 py-3 section3-turf-border">
+                                    <img src="./icons/Group2.png" className="img-fluid" alt="" />
+                                    <h5 className="pt-4 section3-turf-heading">Turf &amp; Training</h5>
+                                    <p className="display-6">
+                                        A paragraph is defined as “a group of sentences or a single
+                                        sentence that forms a uni.
+                                    </p>
                                 </div>
                             </div>
                         </div>
                         <div className="col-lg-4">
-                        <div className='text-center p-5 '>
-                                <div className='text-center px-4 py-3 border' >
-                                    <img src="./icons/Group3.png"className='img-fluid' alt="" />
-                                    <h5 className='pt-4'>Search or Turf</h5>
-                                    <p>A paragraph is defined as “a group of sentences or a single sentence that forms a uni.</p>
+                            <div className="text-center p-lg-5 mt-lg-0 mt-2">
+                                <div className="text-center px-4 py-3 section3-turf-border">
+                                    <img src="./icons/Group3.png" className="img-fluid" alt="" />
+                                    <h5 className="pt-4 section3-turf-heading">Book your Turf</h5>
+                                    <p className="display-6">
+                                        A paragraph is defined as “a group of sentences or a single
+                                        sentence that forms a uni.
+                                    </p>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-            </section> 
+                 {/* Seconde Turf Line  */}
+                <div className="container p-0  ">
+                    <div className="row">
+                        <div className="col-lg-4 ">
+                            <div className="text-center px-lg-5 p-2 mt-lg-0 mt-5">
+                                <div className="text-center px-4 pb-3 section3-turf-border">
+                                    <img src="./icons/Group1.png" className="img-fluid" alt="" />
+                                    <h5 className="pt-4 section3-turf-heading">Searching</h5>
+                                    <p className="display-
+                                    
+                                    6">
+                                        A paragraph is defined as “a group of sentences or a single
+                                        sentence that forms a uni.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="col-lg-4">
+                            <div className="text-center px-lg-5  p-2 mt-lg-0 mt-2">
+                                <div className="text-center px-4 p-3 section3-turf-border">
+                                    <img src="./icons/Group2.png" className="img-fluid" alt="" />
+                                    <h5 className="pt-4 section3-turf-heading">Turf &amp; Training</h5>
+                                    <p className="display-6">
+                                        A paragraph is defined as “a group of sentences or a single
+                                        sentence that forms a uni.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="col-lg-4">
+                            <div className="text-center px-lg-5  p-2 mt-lg-0 mt-2">
+                                <div className="text-center px-4 pb-3 section3-turf-border">
+                                    <img src="./icons/Group3.png" className="img-fluid" alt="" />
+                                    <h5 className="pt-4 section3-turf-heading">Book your Turf</h5>
+                                    <p className="display-6">
+                                        A paragraph is defined as “a group of sentences or a single
+                                        sentence that forms a uni.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+            </section>
+
+            
         </>
     )
 }
