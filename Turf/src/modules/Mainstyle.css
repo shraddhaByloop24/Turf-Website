@@ -596,17 +596,19 @@ nav.stroke ul li a:hover:after {
     transform: rotate(-6deg);
   }
   .copyright-area {
-    background: #202020;
-    padding: 25px 0;
+    background: #028B23;
+    padding: 20px 0;
   }
   .copyright-text p {
     margin: 0;
     font-size: 14px;
-    color: #878787;
+    color: #fff;
   }
   .copyright-text p a {
-    color: #028B23;
-  }
+    color:#fff;
+    font-weight: bold;
+    text-decoration: none;
+   }
   .footer-menu li {
     display: inline-block;
     margin-left: 20px;

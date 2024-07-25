@@ -188,12 +188,17 @@ const Hero = () => {
             <div className='container-fluid section4-short-container'>
                 <div className='container'>
                     <div className="row section4-short-row ">
-                        <div className="col-lg-6">
+                        <div className="col-lg-6" data-aos="fade-right"
+                         data-aos-duration="2000"
+                            data-aos-offset="300"
+                            data-aos-easing="ease-in-sine">
                             <div>
                                 <img src="./image/player.png" className='img-fluid' alt="" />
                             </div>
                         </div>
-                        <div className="col-lg-6">
+                        <div className="col-lg-6" data-aos="fade-left"
+                            data-aos-offset="300"  data-aos-duration="2000"
+                            data-aos-easing="ease-in-sine">
                             <div className='d-flex'>
 
                                 <i className="fa-solid fa-quote-left px-1 "></i><h1 className='text-uppercase section4-short-heading' > Information About <br /> the Turf <i className="fa-solid fa-quote-right"></i> </h1>
@@ -213,16 +218,16 @@ const Hero = () => {
 
             {/*================== Section 5============== */}
 
-            <div className='container-fluid mt-5  section5-main-container'>
+            <div className='container-fluid mt-5  section5-main-container' data-aos="fade-up" data-aos-duration="3000">
 
                 <div className="container px-lg-5 ">
                     <div className="row section5 ">
                         <div className="col-lg-6 section5-col">
-                            <div className=''>
-                                <h1 className='section5-heading mt-4'>Download our app now ! </h1>
-                                <p className='pt-3'>A paragraph is defined as “a group of sentences or a single sentence that forms a unit” (Lunsford and Connors 116).
+                            <div className='' data-aos="fade-up" data-aos-duration="1000">
+                                <h1 className='section5-heading mt-4' data-aos="fade-up" data-aos-duration="1000">Download our app now ! </h1>
+                                <p className='pt-3' data-aos="fade-up" data-aos-duration="2000">A paragraph is defined as “a group of sentences or a single sentence that forms a unit” (Lunsford and Connors 116).
                                     Length and appearance do not determine whether a section.</p>
-                                <div className='row section4-inner-row pt-3'>
+                                <div className='row section4-inner-row pt-3' data-aos="fade-up" data-aos-duration="3000">
                                     <div className="col-lg-4">
                                         <img src="./image/play-store.png" className='img-fluid play-store' alt="" />
                                     </div>
@@ -234,7 +239,7 @@ const Hero = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className="col-lg-6">
+                        <div className="col-lg-6" data-aos="zoom-in" data-aos-duration="3000">
                             <img src="./image/app-men.png" className='img-fluid' alt="" />
                         </div>
                     </div>
@@ -243,7 +248,7 @@ const Hero = () => {
 
             {/* ================= Footer================== */}
 
-            <footer className="footer-section mt-5">
+            <footer className="footer-section mt-5" data-aos="fade-up" data-aos-duration="3000">
                 <div className="container">
                     <div className="footer-cta pt-5 ">
                         <div className="row">
@@ -280,7 +285,7 @@ const Hero = () => {
                             </div>
                         </div>
                     </div>
-                    
+
                     <div className="footer-content pt-5 pb-1">
                         <div className="row">
                             <div className="col-xl-4 col-lg-4 mb-50">
@@ -371,7 +376,7 @@ const Hero = () => {
                                         <h3>Subscribe</h3>
                                     </div>
                                     <div className="footer-text mb-25">
-                                        <p>
+                                        <p className='text-white'>
                                             Don’t miss to subscribe to our new feeds, kindly fill the form
                                             below.
                                         </p>
@@ -397,11 +402,11 @@ const Hero = () => {
                                 <div className="copyright-text text-center">
                                     <p>
                                         Copyright © 2023, All Right Reserved{" "}
-                                        <a href="#">Soumitra Ghosh</a>
+                                        <a href="#">Byloop Technologies</a>
                                     </p>
                                 </div>
                             </div>
-                            
+
                         </div>
                     </div>
                 </div>
