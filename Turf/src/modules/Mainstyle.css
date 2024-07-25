@@ -438,10 +438,18 @@ nav.stroke ul li a:hover:after {
     background-size: cover;
     background-repeat: no-repeat;
     color: #fff;
-    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
  }
  .section5-heading{
-    text-align: center;
+    /* text-align: center; */
     font-size: 30px;
     text-transform: uppercase;
+ }
+ .section5-col{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
  }

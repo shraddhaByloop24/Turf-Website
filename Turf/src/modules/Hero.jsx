@@ -88,7 +88,7 @@ const Hero = () => {
 
             {/*================== Section 3============== */}
 
-            <section className='our-turf'>
+            <section className='our-turf '>
                 <div className="container text-center pt-5">
                     <div className='text-center '>
                         <h1 className='our-turf-header'data-aos="fade-up"  data-aos-duration="1000">We Welcome to our Turf Services </h1>
@@ -215,12 +215,25 @@ const Hero = () => {
 
             <div className='container-fluid mt-5 section5-main-container'>
                 
-                <div className="container pt-5  ">
-                    <div className="row section5-row">
-                        <div className="col-lg-6">
-                            <div className='section5-heading'> 
+                <div className="container ">
+                    <div className="row section5  pt-5">
+                        <div className="col-lg-6 section5-col">
+                            <div className=''> 
                                 <h1 className='section5-heading'>Download our app now ! </h1>
+                                <p className=''>A paragraph is defined as “a group of sentences or a single sentence that forms a unit” (Lunsford and Connors 116).
+                                Length and appearance do not determine whether a section.</p>
+                                <div className='row'>
+                                    <div className='col-lg-6'>
+                                        <img src="" alt="" />
+                                    </div>
+                                    <div className='col-lg-6'>
+                                        <img src="" alt="" />
+                                    </div>
+                                </div>
                             </div>
+                        </div>
+                        <div className="col-lg-6">
+                            <img src="./image/app-men.png" className='img-fluid'  alt="" />
                         </div>
                     </div>
                 </div>                
