@@ -401,7 +401,7 @@ const Hero = () => {
                             <div className="text-center text-lg-left">
                                 <div className="copyright-text text-center">
                                     <p>
-                                        Copyright © 2023, All Right Reserved{" "}
+                                        Copyright © 2024, All Right Reserved{" "}
                                         <a href="#">Byloop Technologies</a>
                                     </p>
                                 </div>
