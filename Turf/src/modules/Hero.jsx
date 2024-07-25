@@ -213,7 +213,7 @@ const Hero = () => {
 
             {/*================== Section 5============== */}
 
-            <div className='container-fluid mt-5 section5-main-container'>
+            <div className='container-fluid mt-5  section5-main-container'>
 
                 <div className="container px-lg-5 ">
                     <div className="row section5 ">
@@ -243,7 +243,7 @@ const Hero = () => {
 
             {/* ================= Footer================== */}
 
-            <footer className="footer-section">
+            <footer className="footer-section mt-5">
                 <div className="container">
                     <div className="footer-cta pt-5 ">
                         <div className="row">
@@ -280,6 +280,7 @@ const Hero = () => {
                             </div>
                         </div>
                     </div>
+                    
                     <div className="footer-content pt-5 pb-1">
                         <div className="row">
                             <div className="col-xl-4 col-lg-4 mb-50">
@@ -388,38 +389,19 @@ const Hero = () => {
                         </div>
                     </div>
                 </div>
+
                 <div className="copyright-area">
                     <div className="container">
                         <div className="row">
-                            <div className="col-xl-6 col-lg-6 text-center text-lg-left">
-                                <div className="copyright-text">
+                            <div className="text-center text-lg-left">
+                                <div className="copyright-text text-center">
                                     <p>
                                         Copyright © 2023, All Right Reserved{" "}
                                         <a href="#">Soumitra Ghosh</a>
                                     </p>
                                 </div>
                             </div>
-                            <div className="col-xl-6 col-lg-6 d-none d-lg-block text-right">
-                                <div className="footer-menu">
-                                    <ul>
-                                        <li>
-                                            <a href="#">Home</a>
-                                        </li>
-                                        <li>
-                                            <a href="#">Terms</a>
-                                        </li>
-                                        <li>
-                                            <a href="#">Privacy</a>
-                                        </li>
-                                        <li>
-                                            <a href="#">Policy</a>
-                                        </li>
-                                        <li>
-                                            <a href="#">Contact</a>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
+                            
                         </div>
                     </div>
                 </div>
