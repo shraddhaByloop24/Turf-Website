@@ -31,23 +31,23 @@ const Navbar = () => {
           <div className="collapse navbar-collapse d-lg-flex justify-content-lg-center  " id="navbarSupportedContent">
             <ul className="navbar-nav m-auto mb-2 mb-lg-0">
               <li className="nav-item">
-                <a className="nav-link active px-2" aria-current="page" href="#">
-                  Home
+                <a className="nav-link active px-3" aria-current="page" href="#">
+                <i className="fa-solid fa-house ii"></i> Home
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link active px-2" href="#">
-                  About
+                <a className="nav-link active px-3" href="#">
+                <i className="fa-solid fa-user ii"></i> About
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link active px-2" href="#">
-                  Services
+                <a className="nav-link active px-3" href="#">
+                <i className="fa-solid fa-briefcase ii"></i> Services
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link active px-2" href="#">
-                  Sports
+                <a className="nav-link active px-3" href="#">
+                <i className="fa-solid fa-baseball ii"></i> Sports
                 </a>
               </li>
               {/* <li className="nav-item dropdown">
@@ -84,12 +84,12 @@ const Navbar = () => {
         </li> */}
               <li className="nav-item">
                 <a
-                  className="nav-link active px-2"
+                  className="nav-link active px-3"
                   href="#"
                   tabIndex={-1}
                   aria-disabled="true"
                 >
-                  Contact
+                 <i className="fa-solid fa-address-book ii"></i>  Contact
                 </a>
               </li>
             </ul>
