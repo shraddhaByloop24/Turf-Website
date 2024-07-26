@@ -103,6 +103,16 @@ p {
     background-color: #028B23;
 }
 
+.stroke{
+  background-color: #000 !important;
+}
+
+.home-menu{
+  border-bottom: 3px solid #70BD05;
+  /* background-color: #1da1f2; */
+  border-width: 1px;
+  
+}
 
 nav.stroke ul li a {
     position: relative;
@@ -122,7 +132,7 @@ nav.stroke ul li a:after {
 }
 
 nav.stroke ul li a:hover:after {
-    width: 100%;
+    width: 70%;
     transition: all 0.8s;
 }
 
@@ -147,7 +157,7 @@ nav.stroke ul li a:hover:after {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    text-align: left; /* Center text for better responsiveness */
+    text-align: left; 
 }
 
 .hero-1 {
@@ -181,7 +191,7 @@ nav.stroke ul li a:hover:after {
     position: relative;
     padding: 30px;
     width: 100%; /* Make width 100% for responsiveness */
-    max-width: 360px; /* Max width for larger screens */
+    max-width: 400px; /* Max width for larger screens */
     height: auto;
     display: flex;
     justify-content: center;
@@ -296,6 +306,7 @@ nav.stroke ul li a:hover:after {
 ================================================== */
 .section2-about-heading {
     color: #028B23;
+    margin-top: 30px;
 }
 
 .hero-small-box {
@@ -396,38 +407,52 @@ nav.stroke ul li a:hover:after {
 /* Section 4 Short Container============================
 ======================================================== */
 
-
-.section4-short-container .section4-short-row{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.section4-short-container .section4-short-row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap; /* Ensure wrapping on smaller screens */
 }
 
-.section4-short-heading{
-    color: #028B23;
-    font-size: 30px;
+.section4-short-heading {
+  color: #028B23;
+  font-size: 30px;
 }
-.section4-ul{
-    list-style-type: none;
-}
-.section4-ul i{
-    color: #028B23;
-    font-size: 16px;
-}
-.section4-ul b{
-   opacity: 0.6;
-   font-weight: 500;
-}
-.fa-quote-left{
-   font-size: 25px;
-   opacity: 0.6;
-   color: #028B23;
-}
-.fa-quote-right{
-    font-size: 25px;
-    opacity: 0.6;
- }
 
+.section4-ul {
+  list-style-type: none;
+}
+
+.section4-ul i {
+  color: #028B23;
+  font-size: 16px;
+}
+
+.section4-ul b {
+  opacity: 0.6;
+  font-weight: 500;
+}
+
+.fa-quote-left {
+  font-size: 25px;
+  opacity: 0.6;
+  color: #028B23;
+}
+
+.fa-quote-right {
+  font-size: 25px;
+  opacity: 0.6;
+}
+
+@media (max-width: 768px) {
+  .section4-short-heading {
+      font-size: 24px;
+  }
+
+  .section4-ul li {
+      font-size: 14px;
+  }
+}
 
  /* Section 5 App Downlode=====================================
  ==============================================================*/

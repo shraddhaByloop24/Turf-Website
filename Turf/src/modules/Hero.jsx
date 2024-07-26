@@ -184,37 +184,31 @@ const Hero = () => {
             </section>
 
             {/*================== Section 4============== */}
-
             <div className='container-fluid section4-short-container'>
                 <div className='container'>
-                    <div className="row section4-short-row ">
-                        <div className="col-lg-6" data-aos="fade-right"
-                         data-aos-duration="2000"
-                            data-aos-offset="300"
-                            data-aos-easing="ease-in-sine">
+                    <div className="row section4-short-row">
+                        <div className="col-lg-6 col-md-12" data-aos="fade-up" data-aos-duration="3000"
+                        >
                             <div>
                                 <img src="./image/player.png" className='img-fluid' alt="" />
                             </div>
                         </div>
-                        <div className="col-lg-6" data-aos="fade-left"
-                            data-aos-offset="300"  data-aos-duration="2000"
-                            data-aos-easing="ease-in-sine">
-                            <div className='d-flex'>
-
-                                <i className="fa-solid fa-quote-left px-1 "></i><h1 className='text-uppercase section4-short-heading' > Information About <br /> the Turf <i className="fa-solid fa-quote-right"></i> </h1>
+                        <div className="col-lg-6 col-md-12" data-aos="fade-up" data-aos-duration="3000">
+                            <div className='d-flex align-items-center' data-aos="fade-up" data-aos-duration="1000">
+                                <i className="fa-solid fa-quote-left px-1"></i>
+                                <h1 className='text-uppercase section4-short-heading'>Information About <br /> the Turf <i className="fa-solid fa-quote-right"></i></h1>
                             </div>
-                            <div className='section4-ul mt-1'>
-
-                                <li className='pt-2'><i className="fa-solid fa-circle-plus px-2"></i><b>A paragraph is defined as group of sentences or a single sentence.</b> </li>
-                                <li className='pt-2'><i className="fa-solid fa-circle-plus px-2"></i><b>A paragraph is defined as group of sentences or a single sentence. </b> </li>
-                                <li className='pt-2'><i className="fa-solid fa-circle-plus px-2"></i><b>A paragraph is defined as group of sentences or a single sentence.</b> </li>
-                                <li className='pt-2'><i className="fa-solid fa-circle-plus px-2"></i><b>A paragraph is defined as group of sentences or a single sentence.</b> </li>
-
+                            <div className='section4-ul mt-1' data-aos="fade-up" data-aos-duration="3000">
+                                <li className='pt-2'data-aos="fade-up" data-aos-duration="1000"><i className="fa-solid fa-circle-plus px-2"></i><b>A paragraph is defined as group of sentences or a single sentence.</b></li>
+                                <li className='pt-2'data-aos="fade-up" data-aos-duration="1000"><i className="fa-solid fa-circle-plus px-2"></i><b>A paragraph is defined as group of sentences or a single sentence. </b></li>
+                                <li className='pt-2'data-aos="fade-up" data-aos-duration="1000"><i className="fa-solid fa-circle-plus px-2"></i><b>A paragraph is defined as group of sentences or a single sentence.</b></li>
+                                <li className='pt-2'data-aos="fade-up" data-aos-duration="1000"><i className="fa-solid fa-circle-plus px-2"></i><b>A paragraph is defined as group of sentences or a single sentence.</b></li>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
+
 
             {/*================== Section 5============== */}
 
@@ -341,6 +335,7 @@ const Hero = () => {
                                     </div>
                                     <ul>
                                         <li>
+                                            
                                             <a href="#">Home</a>
                                         </li>
                                         <li>

@@ -1,5 +1,6 @@
 import React from 'react'
 import './Mainstyle.css'
+import {Link} from 'react-router-dom'
 
 
 const Navbar = () => {
@@ -31,9 +32,9 @@ const Navbar = () => {
           <div className="collapse navbar-collapse d-lg-flex justify-content-lg-center  " id="navbarSupportedContent">
             <ul className="navbar-nav m-auto mb-2 mb-lg-0">
               <li className="nav-item">
-                <a className="nav-link active px-3" aria-current="page" href="#">
-                <i className="fa-solid fa-house ii"></i> Home
-                </a>
+                <Link className="nav-link active px-3 home-menu" aria-current="page" href="#">
+                <i className="fa-solid fa-house ii "></i> Home
+                </Link>
               </li>
               <li className="nav-item">
                 <a className="nav-link active px-3" href="#">
